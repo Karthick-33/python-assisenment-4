@@ -1,1 +1,8 @@
-# python-assisenment-4
+In this task, the goal is to write a Python program that attempts to open and read a text file named sample.txt, displaying its contents line by line. The program uses a try-except block to gracefully handle potential errors — specifically, if the file does not exist. If the file is found, it reads and prints each line with its corresponding line number, using a loop and the enumerate() function. If the file is missing, a FileNotFoundError is raised, and the program catches this exception to display a clear, user-friendly error message instead of crashing. This approach ensures that the program is robust, user-friendly, and handles file access operations safely.
+
+<img width="953" height="504" alt="Screenshot 2025-07-11 155405" src="https://github.com/user-attachments/assets/9e6894ca-fd40-4a03-93bb-35341b578fcf" />
+
+The objective is to create a Python program that demonstrates how to write data to a file, append more data, and then read the entire file content. First, the program prompts the user to enter some text, which is written to a file named output.txt using write mode ("w"). This mode creates the file if it doesn't exist or overwrites it if it does. Next, the program asks for additional text to append to the same file. This is done using append mode ("a"), which adds new content to the end of the file without deleting existing data. Finally, the program reopens the file in read mode ("r"), reads all its content line by line, and prints it to the screen. This task helps users understand basic file handling operations in Python—writing, appending, and reading—while reinforcing the importance of using appropriate file modes.
+
+
+<img width="948" height="485" alt="Screenshot 2025-07-11 155230" src="https://github.com/user-attachments/assets/0c778b96-27c4-4a27-9108-9a6037bef674" />
